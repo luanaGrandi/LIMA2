@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+ 
+}
+
+p, h2 {
+  font-family: 'Inter', sans-serif;
+  
+}
+/* header */
+.Bannerfundo {
+  background-image: url("img/bannerFundo.png");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+/* Estilo da logo */
+.logo {
+  width: 23vh; 
+  padding-left: 5vh;
+  padding-top: 3vh;
+}
+
+/* Estilo da lista de navegação */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  font-family: 9vh;
+  padding-left: 120vh;
+  font-size: 3vh;
+  margin-top: 3vh;
+ 
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.navbar ul :hover{
+    color: #662627;
+    border-bottom: 2px solid #662627;
+    /* aparecer a linha em baixo após o cursor */
+}
+
+.textoInical {
+    text-align: right;
+    padding-top: 43vh;
+    font-size: 6vh;
+    padding-right: 25vh;
+}
+
+.textoInical  h1{
+  font-size: 1vh;
+  color: #662627;
+  font-size: 11vh;
+  text-shadow: 2px 2px 5px #662627;
+} 
+
+/* fim do header */
+
+/* main */
+
+/* nossa Historia */
+.NossaHistoria{
+    background-color: #73543F;
+    height: 130vh;
+}
+
+.titulo{
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+  color: #ffff;
+  font-size: 10vh;
+  padding-top: 7vh;
+  padding-left: 5vh;
+}
+.subtitulo{
+  color: #ffff;
+  font-size: 4vh;
+  padding-left: 5vh;
+}
+.textoInformativo{
+  display: flex;
+  align-items: center;
+  color: #ffff;
+  padding-left: 6vh;
+  padding-top: 1vh;
+  gap: 33vh;
+  font-size: 4vh;
+
+}
+.imagemCavalo img{
+  width: 70vh;
+  transition: transform 0.3s ease;
+}
+
+.imagemCavalo img:hover{
+  transform: scale(1.1); /* Aumenta 10% */
+  cursor: pointer;
+}
+
+/* fim - nossa historia */
+
+/* começo das atividades */
+
+/* passeio a cavalo */
+.tituloAtividade{
+  color: #662627;
+  font-size: 11vh;
+  margin-top: 8vh;
+  margin-left: 65vh;
+}
+
+
+.informações{
+  display: flex;
+  align-items: center;
+  margin-top: 10vh;
+  margin-left: 8vh;
+  gap: 24vh;
+}
+
+.imgempasseio img{
+  width: 70vh;
+  transition: transform 0.3s ease;
+}
+
+
+.imgempasseio img:hover{
+  transform: scale(1.1); /* Aumenta 10% */
+  cursor: pointer;
+}
+
+.tituloModalidade{
+  color: #662627;
+  font-size: 8vh;
+   margin-left: 34vh;
+}
+
+.explicacao{
+  font-size: 4vh;
+  margin-top: 2vh;
+}
+
+.listaInfo{
+  margin-top: 5vh;
+  font-size: 4vh;
+  list-style: none;  
+   /*  tira os marcadores*/
+   
+}
+
+.listaInfo li {
+  margin-bottom: 2vh;     
+  display: flex;          
+  align-items: center;    
+  gap: 6vh;               
+}
+
+.listaInfo i{
+  color: #662627;
+}
+
+.Agendamento{
+  background-color: #73543F;
+  color: #ffff;
+  margin-top: 4vh;
+  width: 50vh;
+  height: 9vh;
+  font-size: 3vh;
+  border-radius: 3vh;
+  margin-left: 34vh;
+}
+
+.Agendamento:hover{
+  cursor: pointer;
+  background-color: #ffff;
+  color: #662627;
+  border: 4px solid #662627;
+}
+
+/* fim - passeio a cavalo */
+
+/* montaria */
+.Montaria{
+  background-color: #662627;
+  padding-top: 8vh;
+  margin-top: 8vh;
+  height: 100vh;
+  
+}
+
+.tituloModalidade2{
+  color: #fff;
+  font-size: 8vh;
+  margin-left: 34vh;
+}
+
+.explicacaoMontaria{
+  font-size: 4vh;
+  margin-top: 2vh;
+  color: #fff;
+}
+
+.listaInfo2{
+  margin-top: 5vh;
+  font-size: 4vh;
+  list-style: none;  
+   /*  tira os marcadores*/
+   color: #ffff;
+   
+}
+
+.listaInfo2 li {
+  margin-bottom: 2vh;     
+  display: flex;          
+  align-items: center;    
+  gap: 6vh;               
+}
+
+
+.Agendamento2{
+  background-color: #73543F;
+  color: #ffff;
+  margin-top: 4vh;
+  width: 50vh;
+  height: 9vh;
+  font-size: 3vh;
+  border-radius: 3vh;
+  margin-left: 34vh;
+}
+
+.Agendamento2:hover{
+  cursor: pointer;
+  background-color: #662627;
+  color: #ffff;
+  border: 4px solid #ffffff;
+}
+
+
+.imagemMontaria img{
+  width: 70vh;
+  transition: transform 0.3s ease;
+  padding-right: 4vh;
+}
+
+
+.imagemMontaria img:hover{
+  transform: scale(1.1); /* Aumenta 10% */
+  cursor: pointer;
+}
+
+/* fim - aula montaria */
+
+
+/* competição */
+
+.imagemCompeticao img{
+  width: 70vh;
+  transition: transform 0.3s ease;
+  padding-right: 4vh;
+}
+
+
+.imagemCompeticao img:hover{
+  transform: scale(1.1); /* Aumenta 10% */
+  cursor: pointer;
+}
+
+/* fim - competição */
+
+/* footer */
+
+footer{
+  background-color: #73543F;
+
+}
+
+.informacoes{
+  display: flex;
+  align-items: center;
+  gap: 24vh;
+  margin-top: 8vh;
+  padding-top: 6vh;
+  padding-left: 4vh;
+}
+.logoBranca{
+  width: 23vh;
+}
+
+.faleconosco{
+  color: #fff;
+  font-size: 2vh;
+  padding-left: 34vh;
+}
+
+.faleconosco p{
+  margin-top: 2vh;
+}
+
+
+.Navegacoes{
+  color: #fff;
+  list-style: none;
+  font-size: 2vh;
+}
+
+.Navegacoes a{
+  text-decoration: none;
+  color: #ffff;
+  padding-top: 2vh;
+  
+}
+
+.Navegacoes ul{
+  padding-top: 2vh;
+}
+
+.Navegacoes li{
+  font-size: 2vh;
+}
+
+.Navegacoes li :hover{
+    color: #6b2324;
+    border-bottom: 2px solid #662627;
+    /* aparecer a linha em baixo após o cursor */
+}
+
+.direitosreservados{
+  background-color: #662627;
+  color: #fff;
+  font-size: 3vh;
+  height: 10vh;
+  padding-left: 78vh;
+  padding-top: 4vh;
+  margin-top: 2vh;
+}
+
+
+
+
+
