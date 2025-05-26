@@ -69,14 +69,14 @@ p, h2 {
 .textoInical {
     text-align: right;
     padding-top: 43vh;
-    font-size: 6vh;
+    font-size: 5vh;
     padding-right: 25vh;
 }
 
 .textoInical  h1{
   font-size: 1vh;
   color: #662627;
-  font-size: 11vh;
+  font-size: 8vh;
   text-shadow: 2px 2px 5px #662627;
 } 
 
@@ -87,7 +87,7 @@ p, h2 {
 /* nossa Historia */
 .NossaHistoria{
     background-color: #73543F;
-    height: 130vh;
+    height: 110vh;
 }
 
 .titulo{
@@ -95,13 +95,13 @@ p, h2 {
   align-items: center;
   gap: 2vh;
   color: #ffff;
-  font-size: 10vh;
+  font-size: 7vh;
   padding-top: 7vh;
   padding-left: 5vh;
 }
 .subtitulo{
   color: #ffff;
-  font-size: 4vh;
+  font-size: 3vh;
   padding-left: 5vh;
 }
 .textoInformativo{
@@ -110,12 +110,12 @@ p, h2 {
   color: #ffff;
   padding-left: 6vh;
   padding-top: 1vh;
-  gap: 33vh;
+  gap: 30vh;
   font-size: 4vh;
 
 }
 .imagemCavalo img{
-  width: 70vh;
+  width: 60vh;
   transition: transform 0.3s ease;
 }
 
@@ -131,7 +131,7 @@ p, h2 {
 /* passeio a cavalo */
 .tituloAtividade{
   color: #662627;
-  font-size: 11vh;
+  font-size: 8vh;
   margin-top: 8vh;
   margin-left: 65vh;
 }
@@ -158,18 +158,18 @@ p, h2 {
 
 .tituloModalidade{
   color: #662627;
-  font-size: 8vh;
+  font-size: 6vh;
    margin-left: 34vh;
 }
 
 .explicacao{
-  font-size: 4vh;
+  font-size: 3vh;
   margin-top: 2vh;
 }
 
 .listaInfo{
   margin-top: 5vh;
-  font-size: 4vh;
+  font-size: 3vh;
   list-style: none;  
    /*  tira os marcadores*/
    
@@ -194,7 +194,7 @@ p, h2 {
   height: 9vh;
   font-size: 3vh;
   border-radius: 3vh;
-  margin-left: 34vh;
+  margin-left: 30vh;
 }
 
 .Agendamento:hover{
@@ -217,19 +217,19 @@ p, h2 {
 
 .tituloModalidade2{
   color: #fff;
-  font-size: 8vh;
+  font-size: 6vh;
   margin-left: 34vh;
 }
 
 .explicacaoMontaria{
-  font-size: 4vh;
+  font-size: 3vh;
   margin-top: 2vh;
   color: #fff;
 }
 
 .listaInfo2{
   margin-top: 5vh;
-  font-size: 4vh;
+  font-size: 3vh;
   list-style: none;  
    /*  tira os marcadores*/
    color: #ffff;
